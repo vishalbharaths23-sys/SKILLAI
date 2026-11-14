@@ -1,0 +1,44 @@
+{
+  "full_stack_developer": {
+    "id": "full_stack_developer",
+    "title": "Full Stack Developer",
+    "description": "Builds scalable client-facing web applications, responsive user interfaces, RESTful services, and database schemas at an early-stage startup.",
+    "required_skills": {
+      "HTML": 2,
+      "CSS": 2,
+      "JavaScript": 3,
+      "React": 3,
+      "Node.js": 2,
+      "SQL": 2,
+      "Git": 2
+    },
+    "prerequisites_order": [
+      "HTML",
+      "CSS",
+      "Git",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL"
+    ]
+  },
+  "data_analyst": {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "description": "Translates complex product usage and transactional data into actionable growth insights, financial dashboards, and statistically grounded experiments.",
+    "required_skills": {
+      "Excel": 2,
+      "SQL": 3,
+      "Python": 3,
+      "Statistics": 2,
+      "Data Visualization": 2
+    },
+    "prerequisites_order": [
+      "Excel",
+      "SQL",
+      "Python",
+      "Statistics",
+      "Data Visualization"
+    ]
+  }
+}

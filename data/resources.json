@@ -1,0 +1,156 @@
+{
+  "HTML": [
+    {
+      "title": "MDN Web Docs: HTML Basics & Semantics",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
+      "platform": "MDN Web Docs",
+      "description": "Comprehensive guide to semantic HTML tags, document structure, and accessibility attributes."
+    },
+    {
+      "title": "freeCodeCamp Responsive Web Design Certification",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+      "platform": "freeCodeCamp",
+      "description": "Interactive hands-on projects building modern semantic web layouts and forms."
+    }
+  ],
+  "CSS": [
+    {
+      "title": "MDN Web Docs: CSS Flexbox Guide",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox",
+      "platform": "MDN Web Docs",
+      "description": "Master 1D alignment, flex-direction, wrapping, and mobile-friendly responsive navigation."
+    },
+    {
+      "title": "CSS-Tricks: A Complete Guide to Flexbox",
+      "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+      "platform": "CSS-Tricks",
+      "description": "Visual visual cheatsheet covering all parent container and child item flex properties."
+    }
+  ],
+  "JavaScript": [
+    {
+      "title": "The Modern JavaScript Tutorial: Promises, async/await",
+      "url": "https://javascript.info/async",
+      "platform": "javascript.info",
+      "description": "Deep dive into promises, microtasks, event loop, and asynchronous programming in JS."
+    },
+    {
+      "title": "MDN Web Docs: Introduction to Events and DOM Manipulation",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events",
+      "platform": "MDN Web Docs",
+      "description": "Handling click events, event propagation, bubbling, and dynamic DOM class updates."
+    }
+  ],
+  "React": [
+    {
+      "title": "React Official Docs: Synchronizing with Effects",
+      "url": "https://react.dev/learn/synchronizing-with-effects",
+      "platform": "React Docs",
+      "description": "Learn how to write useEffect hooks, setup debouncing timers, and clean up subscriptions."
+    },
+    {
+      "title": "freeCodeCamp: React Hooks and State Management",
+      "url": "https://www.freecodecamp.org/news/react-hooks-cheatsheet/",
+      "platform": "freeCodeCamp",
+      "description": "Reference cheat sheet covering useState, useEffect, useMemo, and custom hooks."
+    }
+  ],
+  "Node.js": [
+    {
+      "title": "Node.js Official Docs: Express Routing & Middleware",
+      "url": "https://expressjs.com/en/guide/routing.html",
+      "platform": "Express.js Docs",
+      "description": "Structuring production RESTful endpoints, query parameters, and error handlers."
+    },
+    {
+      "title": "MDN Web Docs: Express Web Framework (Node.js/JavaScript)",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs",
+      "platform": "MDN Web Docs",
+      "description": "Complete tutorial on setting up Express servers, connecting databases, and handling async responses."
+    }
+  ],
+  "SQL": [
+    {
+      "title": "SQLBolt: Interactive Lessons and Exercises",
+      "url": "https://sqlbolt.com/",
+      "platform": "SQLBolt",
+      "description": "Interactive browser-based practice for SELECT, JOIN, GROUP BY, HAVING, and LIMIT/OFFSET."
+    },
+    {
+      "title": "Mode Analytics SQL Tutorial for Data Analysis",
+      "url": "https://mode.com/sql-tutorial/",
+      "platform": "Mode Analytics",
+      "description": "Real-world SQL aggregations, window functions, cohort indexing, and business metric calculations."
+    }
+  ],
+  "Git": [
+    {
+      "title": "Pro Git Book: Git Basics & Branching",
+      "url": "https://git-scm.com/book/en/v2",
+      "platform": "Git SCM",
+      "description": "The definitive open-source guide to version control, branching models, and resolving merge conflicts."
+    },
+    {
+      "title": "GitHub Skills: Introduction to GitHub",
+      "url": "https://skills.github.com/",
+      "platform": "GitHub Skills",
+      "description": "Hands-on interactive repository workflow covering pull requests, code reviews, and commit hygiene."
+    }
+  ],
+  "Python": [
+    {
+      "title": "The Python Tutorial (Official 3.11+ Documentation)",
+      "url": "https://docs.python.org/3/tutorial/",
+      "platform": "Python Software Foundation",
+      "description": "Official guide to Python syntax, data structures, list comprehensions, and standard libraries."
+    },
+    {
+      "title": "Real Python: Pandas Hands-on Tutorial",
+      "url": "https://realpython.com/pandas-dataframe/",
+      "platform": "Real Python",
+      "description": "Manipulating DataFrames, groupby operations, handling missing values, and time-series aggregation."
+    }
+  ],
+  "Excel": [
+    {
+      "title": "Microsoft Support: Excel Video Training",
+      "url": "https://support.microsoft.com/en-us/excel",
+      "platform": "Microsoft Support",
+      "description": "Essential formulas (XLOOKUP, INDEX/MATCH, SUMIFS), pivot tables, and financial modeling."
+    },
+    {
+      "title": "Excel Easy: Pivot Tables and Data Analysis Guide",
+      "url": "https://www.excel-easy.com/data-analysis/pivot-tables.html",
+      "platform": "Excel Easy",
+      "description": "Step-by-step tutorial on grouping dates, creating calculated fields, and building summary dashboards."
+    }
+  ],
+  "Statistics": [
+    {
+      "title": "OpenIntro Statistics (Free Open-Access Textbook)",
+      "url": "https://www.openintro.org/book/os/",
+      "platform": "OpenIntro",
+      "description": "Covers hypothesis testing, two-proportion z-tests, p-values, confidence intervals, and distributions."
+    },
+    {
+      "title": "Khan Academy: Advanced High School & College Statistics",
+      "url": "https://www.khanacademy.org/math/statistics-probability",
+      "platform": "Khan Academy",
+      "description": "Visual conceptual lessons on probability distributions, central limit theorem, and significance testing."
+    }
+  ],
+  "Data Visualization": [
+    {
+      "title": "Python Data Science Handbook: Visualization with Matplotlib & Seaborn",
+      "url": "https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html",
+      "platform": "O'Reilly Open Book",
+      "description": "Creating publication-grade heatmaps, bar charts, scatter plots, and multi-panel figures."
+    },
+    {
+      "title": "Seaborn Official Documentation & Gallery",
+      "url": "https://seaborn.pydata.org/tutorial.html",
+      "platform": "Seaborn Docs",
+      "description": "Statistical data visualization in Python with automated aggregation, hue encoding, and heatmaps."
+    }
+  ]
+}

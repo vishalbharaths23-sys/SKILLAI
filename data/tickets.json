@@ -1,0 +1,74 @@
+[
+  {
+    "id": "FSD-101",
+    "role_id": "full_stack_developer",
+    "title": "Fix Mobile Hamburger Nav Menu Toggle",
+    "description": "The mobile drawer menu is not opening when tapping the hamburger icon on screens < 768px. Write the HTML structure, CSS classes, and a vanilla JavaScript event listener to toggle an 'is-active' class and maintain aria-expanded accessibility states.",
+    "skills_tested": ["HTML", "CSS", "JavaScript"],
+    "difficulty": 1,
+    "hint": "Attach an addEventListener('click', ...) to the toggle button, toggle classList.toggle('is-open') on the navigation drawer, and update setAttribute('aria-expanded', String(isOpen))."
+  },
+  {
+    "id": "FSD-102",
+    "role_id": "full_stack_developer",
+    "title": "Implement Debounced Live Product Search Component",
+    "description": "Our storefront search sends an API request on every keystroke, causing API rate-limiting and UI lag. Build a React component 'SearchBar' with a 300ms debounce using useEffect and a cleanup timer, rendering search suggestions cleanly.",
+    "skills_tested": ["JavaScript", "React"],
+    "difficulty": 2,
+    "hint": "Inside useEffect([searchTerm]), set a setTimeout timer for 300ms to fetch suggestions. Return a cleanup arrow function that calls clearTimeout(timer) so rapid key presses cancel pending calls."
+  },
+  {
+    "id": "FSD-103",
+    "role_id": "full_stack_developer",
+    "title": "Build Secure Paginated Users REST Endpoint",
+    "description": "Create an Express (Node.js) route 'GET /api/v1/users' supporting 'page' and 'limit' query parameters. Ensure SQL injection protection by using parameterized queries with LIMIT and OFFSET, returning items, current page, and total count.",
+    "skills_tested": ["Node.js", "SQL"],
+    "difficulty": 2,
+    "hint": "Parse req.query.page and req.query.limit with fallback defaults. Use parameterized SQL like 'SELECT * FROM users ORDER BY created_at DESC LIMIT $1 OFFSET $2' where offset = (page - 1) * limit."
+  },
+  {
+    "id": "FSD-104",
+    "role_id": "full_stack_developer",
+    "title": "Fix Async Race Conditions & Unmounted Leak in Dashboard",
+    "description": "When users switch project tabs quickly, previous slower HTTP requests resolve out of order and overwrite fresh state, plus React warns of memory leaks on unmounted components. Refactor the data fetching hook with AbortController and cancellation handling.",
+    "skills_tested": ["JavaScript", "React", "Node.js"],
+    "difficulty": 3,
+    "hint": "Instantiate 'new AbortController()' inside the effect, pass its signal to fetch(url, { signal }), and in the cleanup function call controller.abort(). Catch AbortError specifically to ignore cancelled requests."
+  },
+  {
+    "id": "DAT-101",
+    "role_id": "data_analyst",
+    "title": "Calculate Monthly Recurring Revenue (MRR) and Churn Rate",
+    "description": "Finance needs an executive monthly breakdown of new MRR, expansion MRR, churned MRR, and churn percentage across Q1-Q4. Write the SQL aggregation query and explain how the output columns should be structured for a spreadsheet dashboard.",
+    "skills_tested": ["SQL", "Excel"],
+    "difficulty": 1,
+    "hint": "Group subscription events by DATE_TRUNC('month', event_date). Customer churn rate equals (cancellations in month / active subscribers at beginning of month) * 100."
+  },
+  {
+    "id": "DAT-102",
+    "role_id": "data_analyst",
+    "title": "User Onboarding Funnel Drop-off Analysis",
+    "description": "Product leadership noticed steep drop-offs during new user onboarding. Write a Python analysis script using pandas to calculate step-by-step conversion percentages through: 1. Landed -> 2. Signed Up -> 3. Completed Profile -> 4. First Action, and output a visualization.",
+    "skills_tested": ["Python", "Data Visualization"],
+    "difficulty": 2,
+    "hint": "Calculate distinct users at each funnel stage with df.groupby('stage')['user_id'].nunique(). Plot using plt.bar() or sns.barplot() with conversion percentage annotations on each bar."
+  },
+  {
+    "id": "DAT-103",
+    "role_id": "data_analyst",
+    "title": "A/B Test Significance Testing for Checkout Redesign",
+    "description": "Evaluate an A/B test on checkout conversion. Control (A): 12,500 visitors, 1,125 purchases. Variant (B): 12,450 visitors, 1,290 purchases. Calculate conversion rates, pooled standard error, z-score, two-tailed p-value, and state your statistical recommendation.",
+    "skills_tested": ["Statistics", "Python"],
+    "difficulty": 2,
+    "hint": "Conversion rate A is 9.0%, B is 10.36%. Compute pooled conversion p_pool = (x1 + x2)/(n1 + n2), find standard error SE, and z = (p2 - p1)/SE. Use scipy.stats.norm.sf(abs(z))*2 to find p-value."
+  },
+  {
+    "id": "DAT-104",
+    "role_id": "data_analyst",
+    "title": "Build Executive Retention Cohort Heatmap",
+    "description": "Build an end-to-end customer retention cohort analysis. Extract monthly signup cohorts using SQL, pivot user activity across 0 to 12 months in Python (pandas), and generate a publication-quality retention heatmap with formatted percentage cells.",
+    "skills_tested": ["SQL", "Python", "Data Visualization"],
+    "difficulty": 3,
+    "hint": "Create cohort_month from the user's first order date. Calculate cohort_index = (order_year - cohort_year)*12 + (order_month - cohort_month). Divide cohort users by initial cohort size and render with sns.heatmap(cohort_matrix, annot=True, fmt='.1%', cmap='YlGnBu')."
+  }
+]
