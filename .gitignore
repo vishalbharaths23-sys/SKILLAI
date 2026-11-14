@@ -25,3 +25,5 @@ Thumbs.db
 venv/
 .DS_Store
 .streamlit/secrets.toml
+
+deploy_key*
